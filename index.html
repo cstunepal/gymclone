@@ -1,0 +1,154 @@
+<!-- Main content goes here -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Gym Nepal</title>
+    <!-- Css embed here -->
+     <link rel="stylesheet" href="index.css">
+     <!-- Javascript embed here -->
+      <script src="index.js"></script>
+      <!-- Icons are embed here -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+ </head>
+ <body>
+  <div id="main">
+        <nav id="navbar">
+      <a href="#main"><img src="Black White Professional Concept Boxing Club Logo.png" alt="Temple Gym Nepal" class="logo" width="80px" height="80px"></a> 
+       <ul class="links">
+         <a href="#main">About</a>
+         <a href="" class="active"> <i class="fas fa-calendar"></i> &nbsp;Schedule</a>
+         <a href="#locations"><i class="fas fa-location"></i>
+          Location</a>
+         
+       </ul>
+      
+       <a id="login" href="#schedule">Login</a>
+       <ul id="socialmedia">
+         <a href="">
+           <i class="fab fa-instagram insta"></i>
+         </a>
+         <a href="">
+           <i class="fab fa-facebook fb"></i>
+         </a>
+         <a href="">
+           <i class="fab fa-youtube yt"></i>
+         </a>
+       </ul>
+       <a class="carticon">
+         <i class="fas fa-store"></i>
+       </a>
+      </nav>
+      <section id="hero">
+       <p class="para1">TRAIN ON YOUR <br> OWN TIME.</p>
+       <button id="but1">JOIN OUR GYM</button>
+      </section>
+  </div>
+  <section id="firstpara">
+    <div class="leftpara">
+      <h1 id="parahead">WE'RE A HIGH QUALITY GYM <br> DEDICATED TO AFFORDABLE <br> HEALTH AND WELLNESS.</h1>
+    </div>
+    <div class="rightpara">
+      <p id="parap">Temple Gym Nepal is a gym where you can come as <br>
+      you are, and do your best. Our membership <br>
+    offers both digital and in-club programming <br>
+  aimed at helping you achieve your fitness <br>
+goals. Discover all of our club's offerings <br>
+below.</p>
+    </div>
+  </section>
+  <section id="secondphoto">
+    <img src="https://cdn.pixabay.com/photo/2016/11/29/09/10/man-1868632_640.jpg" alt="Photo1"  class="photo1">
+    <img src="https://cdn.pixabay.com/photo/2022/10/22/12/31/woman-7539138_640.jpg" alt="Photo2"   class="photo2">
+    <div class="secondpara">
+      <h1 id="secondhead">AMENITIES</h1>
+      <p id="secondp">At Temple Gym, we're always expanding our amenities to <br>meet the needs of our community. Something you'd like to see <br>added to our list?Submit a request.</p>
+    </div>
+  </section>
+  <section id="schedule">
+    <div class="leftschedule">
+      <h1 class="schedulehead">SCHEDULE A VISIT</h1>
+      <p class="schedulepara">Take a free 30-minute tour of either of our <br>locations to help you decide if Temple Gym Nepal is <br>the right gym for you. You'll have the <br>opportunity to try equipment, observe <br>classes, and get direct answers to all of <br> your questions.</p>
+    </div>
+    <div class="rightschedule">
+      <form onsubmit="return formvalidation()" method="post" class="responsiveform">
+        <label for="Name" style="font-size: 2rem; font-weight: 700;">Name (required) </label>
+        <br>
+        <label for="fname" style="font-size: 1.5rem; font-weight: 700;">First Name</label> <br>
+        <input type="text" id="fname" placeholder="Enter your first name" class="forminput"required> <br> <br>
+        <label for="lname" style="font-size: 1.5rem; font-weight: 700;">Last Name</label> <br>
+        <input type="text" id="lname" placeholder="Enter your last name" class="forminput" required> <br> <br>
+        <label for="email" style="font-size: 2rem; font-weight: 700;">Email(required)</label> <br> 
+        <input type="email" id="email" required class="forminput" placeholder="Enter your email address"> <br> <br>
+        <label for="date" style="font-size: 2rem; font-weight: 700;">Date</label> 
+        <input type="date" id="date" style="padding: 10px;width: 150px; "> <br> <br>
+        <label for="submit">
+          <input type="submit" id="submit" value="Submit" style="padding: 15px;font-size: 15px;font-weight: 700; margin-top: 15px;cursor: pointer; border: 3px solid black; border-radius: 100px; width: 100px; ">
+        </label>
+      </form>
+    </div>
+  </section>
+  <section id="testimonials">
+    <h1 id="testi">"TEMPLE GYM NEPAL WAS CENTRAL IN <br> HELPING ME GAIN THE STAMINA <br> FOR MY RECENT MARATHON."</h1>
+    <p id="testii">-Haribahadur Subedi</p>
+  </section>
+  <section id="locations">
+    <div class="two">
+      <h1>LOKANTHALI</h1>
+      <p id="locate2">12384 Fitness Ln. <br>
+           Lokanthali, BKTPUR <br>
+                  44500 <br></p>     
+    </div>
+    <div class="two">
+      <h1>IMADOL</h1>
+      <p id="locate2">12384 Fitness Ln. <br>
+        Imadol, Lalitpur <br>
+               44500 <br></p>
+    </div>
+  </section>
+  <section id="gallery">
+    <img src="https://th.bing.com/th/id/OIP.k6aaLeYwlNpy4-kLaCE-qgHaNK?w=157&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="This is image 1" class="row">
+    <img src="https://th.bing.com/th/id/OIP.e8kuuCbeimc5SoY6fgnK8AHaEK?w=281&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="This is image 2" class="row">
+    <img src="https://th.bing.com/th/id/OIP.6h6KZivc__xkuufD56r_AgHaEK?w=321&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="This is image 3" class="row">
+    <img src="https://th.bing.com/th/id/OIP.SR8z37k9qEWBucK95C-CmwAAAA?w=201&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="This is image 4" class="row">
+   
+
+  </section>
+  <section id="signup">
+    <div class="two">
+      <h1 style="font-size: 2rem;">STAY UPDATED</h1>
+      <p class="signp">Sign up to be the first to dinf out when we add new classes, amenities, and <br>
+      more. We respect your privacy and will never share your information with any <br>third-party vendors.</p>
+    </div>
+    <div class="two">
+      <label for="signup"></label>
+      <input type="text" placeholder="Enter your email address" id="inputsign">
+      <label for="signbtn"></label>
+      <button id="signbtn" href="userlogin.html">Sign Up</button>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="three">
+      <h1 style="font-size: 2rem;">SUPPORT</h1>
+      <a href="" style="text-decoration: underline;">Terms and Conditions</a> <br>
+      <a href="" style="text-decoration: underline;">Private Policy</a> <br>
+      <a href="" style="text-decoration: underline;">FAQs</a>
+    </div>
+    <div class="three">
+      <h1 style="font-size: 2rem;">CONTACT</h1>
+      <p>Email: bebuspoudel@gmail.com <br>Ph No. +977 9810930681</p>
+    </div>
+    <div class="three" style="">
+     <img src="Black White Professional Concept Boxing Club Logo.png" width="100px" height="100px">
+     <br><a href=""><i class="fab fa-facebook" style="font-size: 1.5rem; color: blue;background-color: white;margin: 2rem;border: 3px solid white; border-radius: 100px;"></i></a>
+      <a href=""><i class="fab fa-youtube" style="color: red; font-size: 1.5rem; background-color: white; margin: 2rem;border: 3px solid white; border-radius: 100px;" ></i></a>
+      <a href="">
+        <i class="fab fa-instagram" style="color: rgba(162, 0, 255, 0.712) ;font-size: 1.5rem;background-color: white; margin: 2rem;border: 3px solid white; border-radius: 100px;"></i>
+      </a> <br>
+     <a href="#main" style="font-size: 2.5rem; font-weight: 700;">TEMPLE GYM NEPAL</a>
+    </div>
+  </footer>
+ </body>
+ </html>

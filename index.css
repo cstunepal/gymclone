@@ -1,0 +1,461 @@
+/* Font Family  */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* Css code goes here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Oswald",sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+    ul{
+        margin-left: 2rem;
+    }
+    
+    ul>a{
+        padding: 1.5rem;
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    
+    a{
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+    }
+    .links a:hover{
+        padding: 0;
+        border-bottom: 2px solid orange;
+        transition: 0.3s all ease-in-out;
+    }
+    
+    .hamburger{
+        display: none;
+    }
+    #main{
+        width: 100%;
+        height: 100vh;
+       background: url(https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_1280.jpg) no-repeat center center;
+       background-size: cover;
+    }
+    #navbar{
+        width: 100%;
+        align-items: center;
+        display: flex;
+        position: sticky;
+        top: 0;
+       padding: 2rem;
+        justify-content: space-evenly;
+    }
+    .active{
+        color: rgb(0, 162, 255);
+    }
+    
+    #login{
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    #login:hover{
+        padding: 0;
+        border-bottom: 2px solid orange;
+        transition: 0.3s all ease-out;
+    }
+    .carticon{
+        display: block;
+        color: aqua;
+    }
+    
+    .logo{
+        border: 2px solid black;
+        border-radius: 5rem;
+    }
+    .fb{
+        color: blue;
+    }
+    .yt{
+        color: red;
+    }
+    .insta{
+        color: rgba(214, 74, 97, 0.911);
+    }
+    
+    #hero{
+        width: 100%;
+        height: 100vh;
+        padding: 2rem;
+    }
+    
+    .para1{
+        position: relative;
+        top: 40vh;
+        color: white;
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    #but1{
+        position: relative;
+        left: 80vw;
+        top: 30vh;
+        padding: 1.6rem;
+        border: 1px solid white;
+        background: transparent;
+        color: white;
+        border-radius: 2rem;
+        width: 200px;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    #but1:hover{
+        color: black;
+        background-color: white;
+        transition: 1s all ease-in-out;
+    }
+    
+    #firstpara{
+        padding: 2rem;
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: black;
+        color: white;
+        border-bottom: 1px solid grey;
+    }
+    #parahead{
+        font-size: 3.5rem;
+    }
+    #parap{
+        font-size: 1.5rem;
+    }
+    #secondphoto{
+        padding: 2rem;
+        width: 100%;
+        height: 150vh;
+        background-color: black;
+    }
+    .photo1{
+        position: relative;
+        left: 25vw;
+        height: 85vh;
+    }
+    .photo2{
+        position: relative;
+        left:20vw;
+        height: 85vh;
+        top: 10vh;
+    }
+    #secondhead{
+        color: white;
+        position: relative;
+        top: 20vh;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    #secondp{
+        color: white;
+        position: relative;
+        top: 25vh;
+        font-size: 1.5rem;
+        text-align: center;
+        letter-spacing: 0.3rem;
+    }
+    #schedule{
+        padding: 2rem;
+        background: whitesmoke;
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        justify-content: space-between;
+        align-items: center;
+        color: black;
+        border-bottom: 1px solid grey;
+    }
+    .schedulehead{
+        font-size: 3.5rem;
+    }
+    .schedulepara{
+        font-size: 1.5rem;
+    }
+    .rightschedule{
+        width: 50%;
+        padding: 2rem;
+    }
+    .forminput{
+        padding: 10px;width: 500px;
+    }
+    #submit:hover{
+        color: white;
+        background-color: black;
+        transition: 0.5s all ease-in-out;
+    }
+    #testimonials{
+        width: 100%;
+        height: 50vh;
+        color: aliceblue;
+        background-color: rgba(153, 51, 122, 0.911);
+        text-align: center;
+    }
+    #testi{
+        position: relative;
+        top: 10px;
+        font-size: 3rem;
+    }
+    #testii{
+        position: relative;
+        top: 10px;
+        font-size: 2rem;
+    }
+    #locations{
+        width: 100%;
+        height: 30vh;
+        background-color: black;
+        color: white;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .two>h1{
+        font-size: 2rem;
+    }
+    #locate2{
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+    #gallery{
+        width: 100%;
+        height: 55vh;
+        display: flex;
+        gap: 0;
+    }
+    .row{
+        width: 24.5vw;
+        height: 55vh;
+        border: 2px solid whitesmoke;
+    }
+    #signup{
+        width: 100%;
+        padding: 2rem;
+        height: 50vh;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid whitesmoke;
+    }
+    #inputsign{
+        padding: 1rem; width: 30vw;margin-left: 100px;
+    }
+    #signbtn{
+        padding: 1rem;border-radius: 100px;background-color: black;color: white;border: 2px solid white; width: 10vw; margin-left: 25px;
+    }
+    .signp{
+        margin-top: 1.5rem; 
+        letter-spacing: 2px;
+    }
+    #footer{
+        width: 100%;
+        padding: 2rem;
+        height: 50vh;
+        background-color: black;
+        color: white;
+        display: flex;
+    }
+    .three{
+        width: 33vw;
+    }
+ 
+
+
+/* Reposnvie web design */
+@media only screen and (max-width:1140px) {
+    .carticon{
+        display: none;
+    }
+   
+.main{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+#navbar{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.links a{
+    font-size: 1rem;
+}
+#socialmedia a{
+    display: none;
+}
+#login{
+    font-size: 1rem;
+    display: block;
+}
+#hero{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.para1{
+    font-size: 3rem;
+    position: relative;
+    top: 10rem;
+}
+#but1{
+    position: relative;
+    top: 20rem;
+    left: 0;
+    right: 0;
+}
+#firstpara{
+    padding: 3rem;
+    margin: 0;
+    width: 100vw;
+    height: 75vh;
+    gap: 0;
+}
+#parahead{
+    font-size: 2rem;
+    width: 20%;
+}
+#parap{
+    font-size: 1rem;
+    width: 80%;
+}
+#secondphoto{
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    height: 75vh;
+}
+.photo1, .photo2{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    left: 2rem;
+}
+#secondhead{
+    font-size: 2rem;
+}
+#secondp{
+    font-size: 1rem;
+    letter-spacing: 0;
+}
+
+#schedule{
+    position: relative;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.schedulehead{
+    position: relative;
+    left: 5rem;
+    font-size: 2rem;
+    text-align: center;
+
+}
+.schedulepara{
+    position: relative;
+    left: 5rem;
+    font-size: 1rem;
+    text-align: center;
+}
+.responsiveform{
+    font-size: 2rem;
+    width: 100vw;
+}
+.forminput{
+    width: 75vw;
+}
+#locations{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    height: 30vh;
+}
+
+.two>h1{
+    font-size: 2rem;
+}
+#locate2{
+    margin: 0;
+    font-size: 10px;
+}
+#gallery{
+   display: none;
+
+}
+#testimonials{
+    height: 50vh;
+    padding: 1rem;
+}
+#testi{
+    position: relative;
+    top: 30px;
+    font-size: 2.5rem;
+}
+#testii{
+    font-size: 2rem;
+    position: relative;
+    top: 30px;
+}
+#signup{
+    margin: 0;
+    padding: 2rem;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#inputsign{
+    position: relative;
+    top: 2rem;
+    width: 40vw;
+}
+#signbtn{
+    position: relative;
+    top: 2rem;
+    width: 20vw;
+}
+.signp{
+    padding: 0;
+    font-size: 1rem;
+    letter-spacing: 0;
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+}
+.three{
+    width: 100vw;
+}
+
+
+
+}
+
